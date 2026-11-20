@@ -1,0 +1,19 @@
+.list {
+    list-style: none;
+    padding: 0;
+    max-width: 300px;
+}
+
+.list__item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 12px;
+    border-bottom: 1px solid #ddd;
+    cursor: pointer;
+}
+
+.done {
+    text-decoration: line-through;
+    color: #888;
+}
